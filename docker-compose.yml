@@ -1,0 +1,14 @@
+---
+services:
+  mydb:
+    image: mysql:5
+    environment:
+      MYSQL_ROOT_PASSWORD: vidya
+  mywordpress:
+    image: wordpress
+    ports:
+      - 8888:80
+    links:
+      - mydb:mysql
+
+...
