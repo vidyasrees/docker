@@ -1,0 +1,17 @@
+---
+services:
+  mydb:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: viyda
+    deploy:
+      replicas: 2
+
+  mywordpress:
+    image: wordpress
+    ports:
+      - 8080:80
+    deploy:
+      replicas: 2
+
+...
