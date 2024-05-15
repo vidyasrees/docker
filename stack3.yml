@@ -1,0 +1,35 @@
+---
+services:
+  hub:
+    image: selenium/hub
+    ports:
+      - 4444:4444
+    deploy:
+      replicas: 2
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: "300M"
+
+  chrome:
+    image: selenium/node-chrome-debug
+    ports:
+      - 5901:5900
+    deploy:
+      replicas: 2
+      resources:
+        limits:
+          cpus: "0.01"
+          memory: "150M"
+
+  firefox:
+    image: selenium/node-fireox-debug
+    ports:
+      - 5902:5900
+    deploy:
+      replicas: 2
+      resources:
+        limits:
+          cpus: "0.01"
+          memory: "150M"
+...
