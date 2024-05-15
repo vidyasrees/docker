@@ -6,6 +6,9 @@ services:
       - 5050:8080
     deploy:
       replicas: 2
+      placement:
+        constraints:
+          - node.hostname == Manager
 
   qaserver:
     image: tomee
@@ -13,6 +16,9 @@ services:
       - 6060:8080
     deploy:
       replicas: 2
+      placement:
+        constraints:
+          - node.hostname == Worker1
 
   prodserver:
     image: tomee
@@ -20,4 +26,7 @@ services:
       - 7070:8080
     deploy:
       replicas: 2
+      placement:
+        constraints:
+          - node.hostname == Worker2
 ...
