@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1715690045,,"wq"
+|2,0,1715758413,,"wq"
 :q
 |2,0,1715497118,,"q"
 :q!
@@ -36,66 +36,78 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
-	    image: mysql
-|3,0,1,1,1,0,1715499925,"    image: mysql"
+""1	LINE	0
+	    - 
+|3,1,1,1,1,0,1715758076,"    - "
 "2	LINE	0
-	    environment:
-|3,0,2,1,1,0,1715499925,"    environment:"
+	    E
+|3,0,2,1,1,0,1715758076,"    E"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1715499924,""
+	    E
+|3,0,3,1,1,0,1715758076,"    E"
 "4	LINE	0
-	      - mydb:/var/lib/mysql
-|3,0,4,1,1,0,1715499924,"      - mydb:/var/lib/mysql"
+	---
+|3,0,4,1,1,0,1715758008,"---"
 "5	LINE	0
-	    volumes:
-|3,0,5,1,1,0,1715499924,"    volumes:"
+	services:
+|3,0,5,1,1,0,1715758008,"services:"
 "6	LINE	0
-	      MYSQL_ROOT_PASSWORD: vidya
-|3,0,6,1,1,0,1715499924,"      MYSQL_ROOT_PASSWORD: vidya"
+	  image: jenkins/jenkins
+|3,0,6,1,1,0,1715758008,"  image: jenkins/jenkins"
 "7	LINE	0
-	  mywordpress:
-|3,0,7,1,1,0,1715499916,"  mywordpress:"
+	...
+|3,0,7,1,1,0,1715758008,"..."
 "8	LINE	0
-	    image: wordpress
-|3,0,8,1,1,0,1715499914,"    image: wordpress"
+	    - 
+|3,0,8,1,1,0,1715758008,"    - "
 "9	LINE	0
-	    ports:
-|3,0,9,1,1,0,1715499914,"    ports:"
-""-	CHAR	0
+	    E
+|3,0,9,1,1,0,1715758008,"    E"
+"-	CHAR	0
 	m
-|3,1,36,0,1,0,1715499926,"m"
+|3,0,36,0,1,0,1715499926,"m"
 
 # File marks:
-'0  15  16  ~/stack1.yml
-|4,48,15,16,1715690045,"~/stack1.yml"
-'1  13  14  ~/stack1.yml
-|4,49,13,14,1715689931,"~/stack1.yml"
-'2  11  14  ~/stack1.yml
-|4,50,11,14,1715689931,"~/stack1.yml"
-'3  13  14  ~/stack1.yml
-|4,51,13,14,1715689773,"~/stack1.yml"
-'4  11  14  ~/stack1.yml
-|4,52,11,14,1715689773,"~/stack1.yml"
-'5  1  6  /etc/hostname
-|4,53,1,6,1715593542,"/etc/hostname"
-'6  4  11  ~/docker-compose.yml
-|4,54,4,11,1715503983,"~/docker-compose.yml"
+'0  8  5  ~/stack2.yml
+|4,48,8,5,1715758413,"~/stack2.yml"
+'1  15  16  ~/stack1.yml
+|4,49,15,16,1715690045,"~/stack1.yml"
+'2  13  14  ~/stack1.yml
+|4,50,13,14,1715689931,"~/stack1.yml"
+'3  11  14  ~/stack1.yml
+|4,51,11,14,1715689931,"~/stack1.yml"
+'4  13  14  ~/stack1.yml
+|4,52,13,14,1715689773,"~/stack1.yml"
+'5  11  14  ~/stack1.yml
+|4,53,11,14,1715689773,"~/stack1.yml"
+'6  1  6  /etc/hostname
+|4,54,1,6,1715593542,"/etc/hostname"
 '7  4  11  ~/docker-compose.yml
-|4,55,4,11,1715500610,"~/docker-compose.yml"
-'8  6  16  ~/docker-compose.yml
-|4,56,6,16,1715500015,"~/docker-compose.yml"
+|4,55,4,11,1715503983,"~/docker-compose.yml"
+'8  4  11  ~/docker-compose.yml
+|4,56,4,11,1715500610,"~/docker-compose.yml"
 '9  6  16  ~/docker-compose.yml
 |4,57,6,16,1715500015,"~/docker-compose.yml"
 
 # Jumplist (newest first):
+-'  8  5  ~/stack2.yml
+|4,39,8,5,1715758413,"~/stack2.yml"
+-'  1  0  ~/stack2.yml
+|4,39,1,0,1715757929,"~/stack2.yml"
+-'  15  16  ~/stack1.yml
+|4,39,15,16,1715690045,"~/stack1.yml"
 -'  15  16  ~/stack1.yml
 |4,39,15,16,1715690045,"~/stack1.yml"
 -'  13  14  ~/stack1.yml
 |4,39,13,14,1715689982,"~/stack1.yml"
+-'  13  14  ~/stack1.yml
+|4,39,13,14,1715689982,"~/stack1.yml"
 -'  11  14  ~/stack1.yml
 |4,39,11,14,1715689931,"~/stack1.yml"
+-'  11  14  ~/stack1.yml
+|4,39,11,14,1715689931,"~/stack1.yml"
+-'  11  14  ~/stack1.yml
+|4,39,11,14,1715689773,"~/stack1.yml"
 -'  11  14  ~/stack1.yml
 |4,39,11,14,1715689773,"~/stack1.yml"
 -'  1  0  ~/stack1.yml
@@ -104,6 +116,28 @@
 |4,39,1,0,1715689578,"~/stack1.yml"
 -'  1  0  ~/stack1.yml
 |4,39,1,0,1715689578,"~/stack1.yml"
+-'  1  0  ~/stack1.yml
+|4,39,1,0,1715689578,"~/stack1.yml"
+-'  1  0  ~/stack1.yml
+|4,39,1,0,1715689578,"~/stack1.yml"
+-'  1  0  ~/stack1.yml
+|4,39,1,0,1715689578,"~/stack1.yml"
+-'  1  6  /etc/hostname
+|4,39,1,6,1715593542,"/etc/hostname"
+-'  1  6  /etc/hostname
+|4,39,1,6,1715593542,"/etc/hostname"
+-'  1  6  /etc/hostname
+|4,39,1,6,1715593542,"/etc/hostname"
+-'  1  6  /etc/hostname
+|4,39,1,6,1715593542,"/etc/hostname"
+-'  1  6  /etc/hostname
+|4,39,1,6,1715593542,"/etc/hostname"
+-'  1  6  /etc/hostname
+|4,39,1,6,1715593542,"/etc/hostname"
+-'  1  6  /etc/hostname
+|4,39,1,6,1715593542,"/etc/hostname"
+-'  1  6  /etc/hostname
+|4,39,1,6,1715593542,"/etc/hostname"
 -'  1  6  /etc/hostname
 |4,39,1,6,1715593542,"/etc/hostname"
 -'  1  6  /etc/hostname
@@ -153,6 +187,66 @@
 -'  4  11  ~/docker-compose.yml
 |4,39,4,11,1715503983,"~/docker-compose.yml"
 -'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715503983,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
 |4,39,4,11,1715500610,"~/docker-compose.yml"
 -'  4  11  ~/docker-compose.yml
 |4,39,4,11,1715500610,"~/docker-compose.yml"
@@ -184,6 +278,10 @@
 |4,39,4,11,1715500610,"~/docker-compose.yml"
 -'  4  11  ~/docker-compose.yml
 |4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
+-'  4  11  ~/docker-compose.yml
+|4,39,4,11,1715500610,"~/docker-compose.yml"
 -'  6  16  ~/docker-compose.yml
 |4,39,6,16,1715500513,"~/docker-compose.yml"
 -'  6  16  ~/docker-compose.yml
@@ -192,106 +290,32 @@
 |4,39,6,16,1715500513,"~/docker-compose.yml"
 -'  6  16  ~/docker-compose.yml
 |4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500513,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  6  16  ~/docker-compose.yml
-|4,39,6,16,1715500015,"~/docker-compose.yml"
--'  7  1  ~/docker-compose.yml
-|4,39,7,1,1715499905,"~/docker-compose.yml"
--'  7  1  ~/docker-compose.yml
-|4,39,7,1,1715499905,"~/docker-compose.yml"
--'  7  1  ~/docker-compose.yml
-|4,39,7,1,1715499905,"~/docker-compose.yml"
--'  7  1  ~/docker-compose.yml
-|4,39,7,1,1715499905,"~/docker-compose.yml"
--'  7  1  ~/docker-compose.yml
-|4,39,7,1,1715499905,"~/docker-compose.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/stack2.yml
+	*	1715758411	0
+	"	8	5
+	^	8	6
+	.	8	5
+	+	1	2
+	+	1	5
+	+	1	4
+	+	1	5
+	+	1	3
+	+	23	2
+	+	23	5
+	+	23	4
+	+	23	0
+	+	17	13
+	+	22	16
+	+	4	12
+	+	3	9
+	+	4	1
+	+	5	3
+	+	6	5
+	+	7	3
+	+	8	5
 
 > ~/stack1.yml
 	*	1715690043	0

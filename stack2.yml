@@ -1,0 +1,23 @@
+---
+services:
+  jenkins:
+    image: jenkins/jenkins
+    ports:
+      - 5050:8080
+    deploy:
+      replicas: 2
+
+  qaserver:
+    image: tomee
+    ports:
+      - 6060:8080
+    deploy:
+      replicas: 2
+
+  prodserver:
+    image: tomee
+    ports:
+      - 7070:8080
+    deploy:
+      replicas: 2
+...

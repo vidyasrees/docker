@@ -761,3 +761,64 @@ docker service create --name appserver -p 9999:8080 --replicas 6 tomcat
 docker service ls
 docker service update --network-add vidya2 appserver
 docker service inspect appserver --pretty
+docker nodels
+docker node ls
+docker service create --name mynginx -p 8989:80 --replicas 5 nginx
+docker service sls
+docker service ls
+docker service rm webserver appserver
+docker service ls
+docker service ps myng
+docker service scale mynginx=1
+docker service ls
+docker service ps mynginx
+vim stack1.yml
+docker service rm mynginx
+ls
+docker stack deploy -c stack1.yml myapp
+docker stack ps myapp
+docker stack rm myapp
+vim stack1.yml
+docker stack deploy -c stack1.yml myapp
+docker service ls
+docker stack ps myapp
+docker service ls
+docker service scale myapp_mydb=3
+docker service ls
+git init
+git clone https://github.com/vidyasrees/docker.git
+git status
+git add .
+git commit -m "d"
+git config --global user.email "vidhyasree898@gmail.com"
+git commit -m "d"
+git status
+git add
+git add .
+git status
+ls
+git status
+git clone
+git clone https://github.com/vidyasrees/docker.git
+git status
+ls
+mv stack1.yml docker
+git status
+ls
+git status
+git init
+git add .
+git commit -m "d"
+git status
+git push
+docker ls
+cd /docker/
+cd docker/
+ls
+git add .
+git ststus
+git status
+git commit -m "d"
+git push
+git pull
+git push
